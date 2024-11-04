@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#home {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body .btn {
+    width: 100%;
+}
+
+#projects .card,
+#about .card,
+#contact .card {
+    margin-top: 15px;
+}
+
+#about img {
+    max-height: 300px;
+}
+
+#contact p img {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
