@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Portfolio</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand text-white" href="#">Portfolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -29,30 +29,30 @@
 
 <!-- Home Section -->
 <section id="home" class="text-center mt-5">
-    <h1>Welcome to My Portfolio</h1>
+    <h1 class="animated-title">Welcome to My Portfolio</h1>
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
+                <div class="card card-hover">
                     <img src="placeholder.png" class="card-img-top" alt="Projects">
                     <div class="card-body">
-                        <a href="#projects" class="btn btn-primary">Projects</a>
+                        <a href="#projects" class="btn btn-info">Projects</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card card-hover">
                     <img src="placeholder.png" class="card-img-top" alt="About">
                     <div class="card-body">
-                        <a href="#about" class="btn btn-primary">About</a>
+                        <a href="#about" class="btn btn-info">About</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card">
+                <div class="card card-hover">
                     <img src="placeholder.png" class="card-img-top" alt="Contact">
                     <div class="card-body">
-                        <a href="#contact" class="btn btn-primary">Contact</a>
+                        <a href="#contact" class="btn btn-info">Contact</a>
                     </div>
                 </div>
             </div>
@@ -62,11 +62,10 @@
 
 <!-- Projects Section -->
 <section id="projects" class="container mt-5">
-    <h2 class="text-center">My Projects</h2>
+    <h2 class="text-center section-title">My Projects</h2>
     <div class="row mt-4">
-        <!-- Repeat this block for each project -->
         <div class="col-md-3">
-            <div class="card">
+            <div class="card card-hover">
                 <img src="project-placeholder.png" class="card-img-top" alt="Project 1">
                 <div class="card-body">
                     <h5 class="card-title">Project 1</h5>
@@ -80,7 +79,7 @@
 
 <!-- About Section -->
 <section id="about" class="container mt-5">
-    <h2 class="text-center">About Me</h2>
+    <h2 class="text-center section-title">About Me</h2>
     <div class="row mt-4">
         <div class="col-md-6">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
@@ -93,8 +92,8 @@
 
 <!-- Contact Section -->
 <section id="contact" class="container mt-5">
-    <h2 class="text-center">Contact Me</h2>
-    <div class="text-center mt-4">
+    <h2 class="text-center section-title">Contact Me</h2>
+    <div class="text-center mt-4 contact-info">
         <p><img src="email-icon.png" alt="Email"> email@example.com</p>
         <p><img src="linkedin-icon.png" alt="LinkedIn"> LinkedIn Profile</p>
         <p><img src="github-icon.png" alt="GitHub"> GitHub Profile</p>
