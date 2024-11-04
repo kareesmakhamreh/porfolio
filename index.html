@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="text-center mt-5">
+    <h1>Welcome to My Portfolio</h1>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="placeholder.png" class="card-img-top" alt="Projects">
+                    <div class="card-body">
+                        <a href="#projects" class="btn btn-primary">Projects</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="placeholder.png" class="card-img-top" alt="About">
+                    <div class="card-body">
+                        <a href="#about" class="btn btn-primary">About</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="placeholder.png" class="card-img-top" alt="Contact">
+                    <div class="card-body">
+                        <a href="#contact" class="btn btn-primary">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="container mt-5">
+    <h2 class="text-center">My Projects</h2>
+    <div class="row mt-4">
+        <!-- Repeat this block for each project -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="project-placeholder.png" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text">Brief description of the project.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="container mt-5">
+    <h2 class="text-center">About Me</h2>
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+        <div class="col-md-6">
+            <img src="about-placeholder.png" class="img-fluid" alt="About Me">
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container mt-5">
+    <h2 class="text-center">Contact Me</h2>
+    <div class="text-center mt-4">
+        <p><img src="email-icon.png" alt="Email"> email@example.com</p>
+        <p><img src="linkedin-icon.png" alt="LinkedIn"> LinkedIn Profile</p>
+        <p><img src="github-icon.png" alt="GitHub"> GitHub Profile</p>
+        <p><img src="phone-icon.png" alt="Phone"> Phone Number</p>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
