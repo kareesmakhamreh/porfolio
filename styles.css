@@ -1,23 +1,22 @@
-/* General Styling */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans UI', sans-serif;
     color: #444;
 }
 
-/* Navigation Bar */
+
 .navbar {
     background-color: #007bff;
     padding: 1rem 2rem;
 }
 
-/* Section Titles */
+
 .section-title {
     font-size: 2rem;
     color: #007bff;
     margin-bottom: 2rem;
 }
 
-/* Home Section */
+
 #home {
     padding: 80px 0;
     background-color: #f5f7fa;
@@ -34,7 +33,7 @@ body {
     to { opacity: 1; }
 }
 
-/* Card Hover Effect */
+
 .card-hover {
     transition: transform 0.3s, box-shadow 0.3s;
     border-radius: 8px;
@@ -49,7 +48,7 @@ body {
     border-radius: 8px 8px 0 0;
 }
 
-/* Button Styling */
+
 .btn-info {
     background-color: #007bff;
     border: none;
@@ -59,13 +58,13 @@ body {
     background-color: #0056b3;
 }
 
-/* Projects Section */
+
 #projects {
     background-color: #fdfdfd;
     padding: 60px 0;
 }
 
-/* About Section */
+
 #about {
     padding: 60px 0;
 }
@@ -75,7 +74,7 @@ body {
     border-radius: 10px;
 }
 
-/* Contact Section */
+
 #contact {
     background-color: #f5f7fa;
     padding: 60px 0;
@@ -91,7 +90,7 @@ body {
     color: #007bff;
 }
 
-/* Smooth Scrolling */
+/* smooth transition FIX LATEEEER */ 
 html {
     scroll-behavior: smooth;
 }
