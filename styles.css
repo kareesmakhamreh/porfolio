@@ -1,33 +1,97 @@
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
 }
 
+/* Navigation Bar */
+.navbar {
+    background-color: #007bff;
+    padding: 1rem 2rem;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 2rem;
+}
+
+/* Home Section */
 #home {
-    background-color: #f8f9fa;
-    padding: 50px 0;
+    padding: 80px 0;
+    background-color: #f5f7fa;
 }
 
-.card img {
-    height: 200px;
-    object-fit: cover;
+.animated-title {
+    font-size: 3rem;
+    color: #007bff;
+    animation: fadeIn 2s ease-in-out;
 }
 
-.card-body .btn {
-    width: 100%;
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
-#projects .card,
-#about .card,
-#contact .card {
-    margin-top: 15px;
+/* Card Hover Effect */
+.card-hover {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-hover img {
+    border-radius: 8px 8px 0 0;
+}
+
+/* Button Styling */
+.btn-info {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #0056b3;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fdfdfd;
+    padding: 60px 0;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
 }
 
 #about img {
     max-height: 300px;
+    border-radius: 10px;
 }
 
-#contact p img {
-    width: 24px;
-    vertical-align: middle;
-    margin-right: 8px;
+/* Contact Section */
+#contact {
+    background-color: #f5f7fa;
+    padding: 60px 0;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+
+.contact-info p:hover {
+    color: #007bff;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
 }
